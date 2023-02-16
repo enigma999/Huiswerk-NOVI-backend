@@ -12,7 +12,11 @@ public class Dog {
 
     }
     public void hasAged(){
-        this.age++
+        this.age++;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getName() {

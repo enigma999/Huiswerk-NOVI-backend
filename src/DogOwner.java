@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class DogOwner {
     private String name;
     private String sex;
@@ -9,7 +11,27 @@ public class DogOwner {
 
     }
     public void setDog(Dog dog){
-        this.dog=dog;
+        this.dog= dog;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public Dog getDog() {
+        return dog;
     }
 
     @Override
