@@ -17,6 +17,7 @@ public class DogOwnerMain {
     Instantieer hieronder de objecten en laat zien dat je code werkt.
      */
 
+
     public static void main(String[] args) {
 
         Dog dog = new Dog("Barra", "vuilnisbak", 12, "teef");
